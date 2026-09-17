@@ -14,6 +14,16 @@ export const projects = [
     featured: false,
   },
   {
+    title: 'FreelanceHub',
+    description:
+      'A MERN application featuraing freelancing system, implemented JWT authenrication, role based access control, messaging feature, biding system. Designed secure contact-sharing logic where user details are revealed only after project approval. ',
+    tech: ['React','Node','MongoDB','Express','TailwindCSS'],
+    github: 'https://github.com/sidvallal/AskTube-AI',
+    live: '',
+    status: 'completed',
+    featured: true,
+  },
+  {
     title: 'AskTube AI',
     description:
       'A RAG app that lets you chat with any YouTube video. Extracts the transcript, chunks and embeds it, stores it in ChromaDB, retrieves relevant context with MMR, and answers questions with Groq Llama 3.3 70B.',
@@ -24,14 +34,13 @@ export const projects = [
     featured: true,
   },
   {
-    // PLACEHOLDER — replace with a real agentic systems project
-    title: 'Add your agentic systems project here',
+    title: 'AI Based DSA Platform',
     description:
-      'A second slot for a project that shows multi-step planning, tool use, or autonomous task completion.',
+      'AI based DSA platform where user learn DSA according to its current thinking ability from basics to advance.',
     tech: ['Python', 'LLM APIs'],
     github: '',
     live: '',
-    status: 'in progress', // 'completed' | 'in progress'
+    status: 'in progress',
     featured: false,
   },
 ]
