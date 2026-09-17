@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-ink text-paper font-body antialiased;
+  }
+
+  ::selection {
+    @apply bg-signal/30 text-paper;
+  }
+
+  a:focus-visible,
+  button:focus-visible {
+    outline: 2px solid theme('colors.signal.DEFAULT');
+    outline-offset: 3px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  .section {
+    @apply mx-auto max-w-5xl px-6 py-20 md:px-10;
+  }
+
+  .heading-2 {
+    @apply font-display text-3xl font-medium tracking-tight text-paper md:text-4xl;
+  }
+
+  .prompt-label {
+    @apply font-mono text-sm text-signal;
+  }
+}
