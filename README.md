@@ -1,6 +1,6 @@
 # Siddharth Vallal — Portfolio
 
-A dark-mode developer portfolio for generative AI and agentic systems work.
+<!-- A dark-mode developer portfolio for generative AI and agentic systems work.
 Built with React, Vite, Tailwind CSS, and Framer Motion — same stack as the
 reference project this was modeled on.
 
@@ -80,4 +80,4 @@ supports a Vite build:
 npm run build
 ```
 
-Deploy the `dist/` folder.
+Deploy the `dist/` folder. -->
