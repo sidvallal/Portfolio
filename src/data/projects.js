@@ -24,6 +24,16 @@ export const projects = [
     featured: true,
   },
   {
+  title: 'AI Chatbot',
+  description:
+    'Advanced AI chatbot built with LangGraph featuring real-time streaming, conversational memory, persistent state, RAG for knowledge retrieval, MCP integration, and LangSmith for tracing and observability.',
+  tech: ['Python', 'LangGraph', 'LangChain', 'RAG', 'MCP', 'LangSmith', 'LLM APIs'],
+  github: 'https://github.com/sidvallal/ChatBot',
+  live: '',
+  status: 'completed',
+  featured: false,
+},
+  {
     title: 'AskTube AI',
     description:
       'A RAG app that lets you chat with any YouTube video. Extracts the transcript, chunks and embeds it, stores it in ChromaDB, retrieves relevant context with MMR, and answers questions with Groq Llama 3.3 70B.',
@@ -43,4 +53,14 @@ export const projects = [
     status: 'in progress',
     featured: false,
   },
+  {
+  title: 'Insight Agent',
+  description:
+    'AI-powered Text-to-SQL platform that converts natural language questions into SQL queries, retrieves relevant database context using semantic search, executes queries on PostgreSQL, and provides data-driven answers with graphs.',
+  tech: ['Python', 'PostgreSQL', 'pgvector', 'LangChain', 'LLM APIs', 'SQLGlot','RAG', 'MCP', 'LangSmith'],
+  github: 'https://github.com/sidvallal/insight-agent',
+  live: '',
+  status: 'in progress',
+  featured: false,
+},
 ]

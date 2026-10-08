@@ -5,6 +5,7 @@ export const skillCategories = [
       'LLM application design',
       'Agentic workflows',
       'RAG pipelines',
+      'MCP',
       'Prompt & context engineering',
       'LangChain',
       'Vector databases',
