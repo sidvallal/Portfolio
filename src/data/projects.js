@@ -18,7 +18,7 @@ export const projects = [
     description:
       'A MERN application featuraing freelancing system, implemented JWT authenrication, role based access control, messaging feature, biding system. Designed secure contact-sharing logic where user details are revealed only after project approval. ',
     tech: ['React','Node','MongoDB','Express','TailwindCSS'],
-    github: 'https://github.com/sidvallal/AskTube-AI',
+    github: 'https://github.com/sidvallal/FreelanceHub',
     live: '',
     status: 'completed',
     featured: true,
@@ -38,7 +38,7 @@ export const projects = [
     description:
       'A RAG app that lets you chat with any YouTube video. Extracts the transcript, chunks and embeds it, stores it in ChromaDB, retrieves relevant context with MMR, and answers questions with Groq Llama 3.3 70B.',
     tech: ['LangChain', 'Groq Llama 3.3', 'ChromaDB', 'Streamlit', 'Python'],
-    github: 'https://github.com/sidvallal/AskTube-AI',
+    github: 'https://github.com/sidvallal/AskTube',
     live: '',
     status: 'completed',
     featured: true,
@@ -48,7 +48,7 @@ export const projects = [
     description:
       'AI based DSA platform where user learn DSA according to its current thinking ability from basics to advance.',
     tech: ['Python', 'LLM APIs'],
-    github: '',
+    github: 'https://github.com/sidvallal/codementor-ai',
     live: '',
     status: 'in progress',
     featured: false,
